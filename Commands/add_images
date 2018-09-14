@@ -1,0 +1,30 @@
+# setup
+pip install google_images_download
+
+https://github.com/hardikvasa/google-images-download
+
+> google_images_download,py -k apple -l 10 -s medium
+
+
+Or put it in a config file with -cf config
+
+> cat config
+{
+    "Records": [
+        {
+            "keywords": "apple",
+            "limit": 5,
+            "color": "green",
+            "print_urls": true
+        },
+        {
+            "keywords": "universe",
+            "limit": 15,
+            "size": "large",
+            "print_urls": true
+        }
+    ]
+}
+
+
+
