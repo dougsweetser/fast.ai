@@ -15,7 +15,7 @@ kg config –u <your email address> -p <your password> -c <competition>
 
 # <competition name> comes from the kaggle url, so https://www.kaggle.com/c/foo has a competition name of 'foo'
 
-### Planet dataset:
+### Planet dataset - lesson 2
 #https://www.kaggle.com/c/planet-understanding-the-amazon-from-space
 
 # first time:
@@ -35,13 +35,13 @@ kg download -f train_v2.csv.zip
 
 ---
 
-### Stanford Cars Dataset
+### Stanford Cars Dataset - lesson 2
 # can be downloaded straight from a link at https://www.kaggle.com/jessicali9530/stanford-cars-dataset (2GB)
 # in theory, this should also work, but I ran into beautifulsoup errors
 
 kg dataset -o jessicali9530 -d stanford-cars-dataset
 
-### digit-recognizer
+### digit-recognizer - lesson 2
 # kaggle-cli is already configured, so I don't need to pass it my credentials any more 
 
 kg download -c digit-recognizer
